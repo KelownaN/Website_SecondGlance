@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -5,7 +9,6 @@ body {
     color: #e5e7eb;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -15,7 +18,18 @@ body {
     border-bottom: 1px solid #1f2937;
 }
 
-.logo {
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-text {
     font-weight: 700;
     font-size: 20px;
 }
@@ -31,7 +45,6 @@ body {
     color: white;
 }
 
-/* HERO */
 .hero {
     text-align: center;
     padding: 100px 20px 60px;
@@ -49,7 +62,6 @@ body {
     font-size: 18px;
 }
 
-/* SECTIONS */
 .section {
     max-width: 800px;
     margin: 40px auto;
@@ -66,7 +78,6 @@ body {
     padding-left: 20px;
 }
 
-/* BUTTON */
 .button {
     display: inline-block;
     padding: 10px 20px;
